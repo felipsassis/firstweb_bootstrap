@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Site Felipe</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </style>
+
+</head>
+
+<body>
+    <!-- JUMBOTRON -->
+    <div class="jumbotron text-center" style="margin-bottom: 0;">
+        <h1>MEU PRIMEIRO SITE COM BOOTSTRAP</h1>
+        <p>AQUI PODEMOS INSERIR QUALQUER TEXTO NO HEAD</p>
+    </div>
+    <!-- NAVBAR-->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <a class="navbar-brand" href="#">LOGO@</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Links -->
+        <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">TWITCH.TV</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">YOUTUBE</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">NIMO.TV</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- COLUNAS ROW-->
+    <div class="container bg-light" style="margin-top:30px">
+        <div class="row">
+            <div class="col-sm-4"><!-- PRIMEIRO COLUNA DE 4 LINHAS -->
+                <h1>SOBRE MIM</h1>
+                <h4>MINHA FOTO:</h4>
+                <div class="container pl-0">
+                    <img class="img-fluid rounded" src="/img/minhafoto.jpg" alt="">
+                </div>
+                <p>Me chamo Felipe, 25anos. Sou morador do Rio Grande do Sul, apaixonado por games desde 1996@.</p><br>
+                <h1>Links para os sites dos game</h1>
+                <p>Clique para ser direcionado.</p>
+                <ul class="nav nav-pills flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link btn-outline-dark" href="https://worldofwarcraft.com/pt-br/shadowlands" target="_blank">World of Warcraft</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn-outline-dark" href="https://na.leagueoflegends.com/pt-br/" target="_blank">League of Legends</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-sm-8"><!-- SEGUNDA COLUNA DE 8 LINHAS -->
+                <h1>World of Warcraft: Shadowlands</h1>
+                <h4>Lançamento oficial em 23 de Novembro de 2020</h4>
+                <div class="img">
+                    <img class="img-fluid rounded" src="/img/shadowlands.jpg" alt="capa shadowlands">
+                </div>
+                <p>Um pouco sobre o game..</p>
+                <br>
+                <p>World of Warcraft: Shadowlands é o oitavo pacote de expansão do MMORPG World of Warcraft. Foi
+                    anunciado em 1 de novembro de 2019 na Blizzcon e tem como tema o reino dos mortos do universo
+                    Warcraft, as Terras Sombrias.</p>
+                
+                <hr style="border: 1px solid black;">
+                <br>
+
+                <h1>League of Legends</h1>
+                <h4>Lançamento oficial em 27 de outubro de 2009</h4>
+                <div class="img">
+                    <img class="img-fluid rounded" src="/img/lol.jpg" alt="capa lol">
+                </div>
+                <p>Um poco sobre o game..</p>
+                <br>
+                <p>League of Legends é um jogo eletrônico online gratuito, do gênero batalha multijogador, desenvolvido
+                    e publicado pela Riot Games em 2009, para os sistemas Microsoft Windows e Mac OS X, inspirado no
+                    modo Defense of the Ancients do jogo Warcraft III: The Frozen Throne.<br>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="jumbotron" style="margin-bottom:0"> <!-- FOOTER -->
+        <div class="container">
+            <ul class="nav display-4 justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.instagram.com" target="_blank">
+                        <i id="instagram"class="fab fa-instagram"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.facebook.com" target="_blank">
+                        <i id="facebook" class="fab fa-facebook"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.github.com" target="_blank">
+                        <i id="github" class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+            <br>
+            <p class="text-center">Site desenvolvido em Bootstrap @2021</p>
+        </div>
+    </div>
+</body>
+
+</html>

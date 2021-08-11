@@ -1,0 +1,19 @@
+#instagram{
+    color: black;
+}
+#facebook{
+    color: black;
+}
+#github{
+    color: black;
+}
+
+#instagram:hover{
+    color:  #E1306C;
+}
+#facebook:hover{
+    color: #405DE6;
+}
+#github:hover{
+    color: rgb(53, 53, 53);
+}
