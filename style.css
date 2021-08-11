@@ -1,12 +1,12 @@
-#instagram{
-    color: black;
-}
-#facebook{
-    color: black;
-}
+#instagram,
+#facebook,
 #github{
-    color: black;
+    font-size: 30px;
+    color: #fff;
+    padding-top: 20px;
+    margin-bottom: 0;
 }
+
 
 #instagram:hover{
     color:  #E1306C;
@@ -15,5 +15,12 @@
     color: #405DE6;
 }
 #github:hover{
-    color: rgb(53, 53, 53);
+    color: black;
+    
 }
+#footer{
+    color: #fff;
+    margin-bottom:-0!important;
+    padding-bottom: 10px;
+}
+

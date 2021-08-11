@@ -16,14 +16,54 @@
 </head>
 
 <body>
-    <!-- JUMBOTRON -->
-    <div class="jumbotron text-center" style="margin-bottom: 0;">
-        <h1>MEU PRIMEIRO SITE COM BOOTSTRAP</h1>
-        <p>AQUI PODEMOS INSERIR QUALQUER TEXTO NO HEAD</p>
+    <!-- CAROUSEL -->
+    <div class="container-fluid p-0">
+        <div id="demo" class="carousel slide p-0" data-ride="carousel">
+
+                <!-- Indicators -->
+                <ul class="carousel-indicators">
+                    <li data-target="#demo" data-slide-to="0" class="active"></li>
+                    <li data-target="#demo" data-slide-to="1"></li>
+                    <li data-target="#demo" data-slide-to="2"></li>
+                </ul>
+        
+                <!-- The slideshow -->
+                <div class=" carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="/kyrian.jpeg" alt="Kyrian" class="d-block w-100">
+                        <div class="carousel-caption">
+                            <h3>KYRIANOS</h3>
+                            <p>EM DEFESA DO BASTIÃO</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/necrolord.jpg" alt="Necrolord" class="d-block w-100">
+                        <div class="carousel-caption">
+                            <h3>NECROLORDES</h3>
+                            <p>EM DEFESA DE MALDRAXUS</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/pacto.jpg" alt="Pactos" class="d-block w-100">
+                        <div class="carousel-caption">
+                            <h3>PACTOS</h3>
+                            <p>TODOS OS PACTOS DISPONÍVEIS EM SHADOWLANDS</p>
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- Left and right controls -->
+                <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#demo" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+        </div>
     </div>
     <!-- NAVBAR-->
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-        <a class="navbar-brand" href="#">LOGO@</a>
+        <a class="navbar-brand" href="#">LOGO</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -31,13 +71,13 @@
         <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">TWITCH.TV</a>
+                    <a class="nav-link" href="https://www.twitch.tv/" target="_blank">TWITCH.TV</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">YOUTUBE</a>
+                    <a class="nav-link" href="https://www.youtube.com">YOUTUBE</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">NIMO.TV</a>
+                    <a class="nav-link"  href="https://www.nimo.tv/" target="_blank">NIMO.TV</a>
                 </li>
             </ul>
         </div>
@@ -46,10 +86,10 @@
     <div class="container bg-light" style="margin-top:30px">
         <div class="row">
             <div class="col-sm-4"><!-- PRIMEIRO COLUNA DE 4 LINHAS -->
-                <h1>SOBRE MIM</h1>
-                <h4>MINHA FOTO:</h4>
+                <h1>Sobre mim</h1>
+                <h4>Desenvolvedor Web:</h4>
                 <div class="container pl-0">
-                    <img class="img-fluid rounded" src="/img/minhafoto.jpg" alt="">
+                    <img class="img-fluid rounded" src="/minhafoto.jpg" alt="">
                 </div>
                 <p>Me chamo Felipe, 25anos. Sou morador do Rio Grande do Sul, apaixonado por games desde 1996@.</p><br>
                 <h1>Links para os sites dos game</h1>
@@ -68,10 +108,9 @@
                 <h1>World of Warcraft: Shadowlands</h1>
                 <h4>Lançamento oficial em 23 de Novembro de 2020</h4>
                 <div class="img">
-                    <img class="img-fluid rounded" src="/img/shadowlands.jpg" alt="capa shadowlands">
+                    <img class="img-fluid rounded" src="/shadowlands.jpg" alt="capa shadowlands">
                 </div>
                 <p>Um pouco sobre o game..</p>
-                <br>
                 <p>World of Warcraft: Shadowlands é o oitavo pacote de expansão do MMORPG World of Warcraft. Foi
                     anunciado em 1 de novembro de 2019 na Blizzcon e tem como tema o reino dos mortos do universo
                     Warcraft, as Terras Sombrias.</p>
@@ -82,10 +121,9 @@
                 <h1>League of Legends</h1>
                 <h4>Lançamento oficial em 27 de outubro de 2009</h4>
                 <div class="img">
-                    <img class="img-fluid rounded" src="/img/lol.jpg" alt="capa lol">
+                    <img class="img-fluid rounded" src="/lol.jpg" alt="capa lol">
                 </div>
                 <p>Um poco sobre o game..</p>
-                <br>
                 <p>League of Legends é um jogo eletrônico online gratuito, do gênero batalha multijogador, desenvolvido
                     e publicado pela Riot Games em 2009, para os sistemas Microsoft Windows e Mac OS X, inspirado no
                     modo Defense of the Ancients do jogo Warcraft III: The Frozen Throne.<br>
@@ -93,9 +131,9 @@
             </div>
         </div>
     </div>
-    <div class="jumbotron" style="margin-bottom:0"> <!-- FOOTER -->
+    <div class="container-fluid bg-dark"> <!-- FOOTER -->
         <div class="container">
-            <ul class="nav display-4 justify-content-center">
+            <ul class="nav justify-content-center">
                 <li class="nav-item">
                     <a class="nav-link" href="https://www.instagram.com" target="_blank">
                         <i id="instagram"class="fab fa-instagram"></i>
@@ -112,8 +150,7 @@
                     </a>
                 </li>
             </ul>
-            <br>
-            <p class="text-center">Site desenvolvido em Bootstrap @2021</p>
+            <p id="footer"class="text-center">Site desenvolvido em Bootstrap @2021</p>
         </div>
     </div>
 </body>
